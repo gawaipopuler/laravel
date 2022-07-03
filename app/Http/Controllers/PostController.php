@@ -24,6 +24,7 @@ class PostController extends Controller
             "title" => "Detail Akun",
             "menuid" => 3,
             "data" => $slug,
+            "menu" => "coba",
         ];
         return view('post.detail', $dt);
     }
